@@ -7,6 +7,5 @@ COPY ./app.py /app/
 # Change the working directory
 WORKDIR /app/
 # Set "python" as the entry point
-ENTRYPOINT ["python"]
 # Set the command as the script name
 CMD ["app.py"]
